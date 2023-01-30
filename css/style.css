@@ -1,0 +1,113 @@
+body{
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    background-color:rgb(121,9,107);
+    color: #ffffff;
+    margin: 0px 0px 30px 0px;
+}
+
+
+.titulo-infancia{
+    color:#04ff9f;
+}
+
+.titulo-juventude{
+    color:#ff9e9e;
+}
+
+.titulo-adulta{
+    color: #ffe36d;
+}
+
+section{
+    width: 60%;
+    margin: 0 auto; 
+}
+
+section section{
+  width: 100%;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 300;
+  }
+
+h2{
+    color: violet;
+    font-size: 40px;
+
+}
+
+  h3{
+    font-size:22px;
+    font-style: italic;
+  }
+  
+  p{
+    line-height: 1.5;
+    font-size: 20px;
+  }
+  
+  img{
+    width: 100%;
+    border: plum 3px solid;
+  }
+
+  ul{
+    list-style-type: none;
+    line-height: 2;
+    padding-left: 0;
+  }
+
+  .principal {
+    background-color:#FF6CB5;
+    font-weight: normal;
+    height: 40px;
+    max-width: 60%;
+    margin: 0 auto; 
+  }
+
+  .principal ul li{
+  display: inline-block;
+  background-color: #FF6CB5;
+  line-height: 2.5;
+  margin: 0 89px;
+  }
+
+  .principal ul li a{
+    text-decoration: underline; 
+    color:#ffffff;
+  }
+
+  .principal ul li a:hover{
+    background-color: violet;
+    transition: 0.2s;
+    border-radius: 80px;
+    padding: 2.5px 
+  }
+ 
+  .divas ul li a {
+    text-decoration: none;
+    color: violet;
+    font-weight: 700;
+  }
+
+  .divas ul li a:hover {
+    background-color: white;
+    transition: 0.2s;
+    border-radius: 80px ;
+    padding: 2.5px;
+  }
+
+ form button{
+  background-color:  #41f341;
+  border: transparent 1px solid;
+  padding: 2px 20px;
+  border-radius: 3px;
+ }
+
+ form button:hover{
+  background-color: white;
+  transition: 0.2s;
+ }
